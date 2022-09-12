@@ -1,0 +1,143 @@
+html, body {
+    margin: 0;
+}
+body {
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.wrapper {
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+    background-color: aquamarine;
+}
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+}
+.menu {
+    width: 15%;
+    background-color: aqua;
+    display: flex;
+    padding-right:30px;
+    text-align: center;
+    margin: 0;
+    align-items: center;
+    text-shadow: 4px 4px 4px #aaa;
+}
+.menu-link{
+  list-style: none;
+  font-size: 25px;
+}
+.menu-link-list{
+  margin-bottom: 40px;
+  cursor: pointer;
+}
+.header {
+    background-color: rgb(5, 108, 108);
+    min-height: 150px;
+    height: 200px;
+}
+.header-atendimento{
+  background-color: rgb(5, 108, 108);
+    min-height: 300px;
+    height: 300px;
+}
+.image-header-atendimento{
+  background-color: rgb(5, 108, 108);
+    width: 100%;
+    min-height: 300px;
+    height: 300px;
+}
+
+.content {
+    background-color: white;
+    min-height: 250px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.content-atendimento{
+  padding-top:20px;
+  display: flex;
+  justify-content: center;
+  background-color: white;
+  padding-bottom: 20px;
+  font-size: 17px;
+}
+.image-container{
+  display: flex;
+  justify-content: center;
+}
+.image-content{
+  width: 200px;
+  height: 130px;
+  margin:10px;
+  border: 5px solid black;
+  border-radius: 10px;
+}
+.footer {
+    background-color: rgb(99, 56, 240);
+    min-height: 77px;
+    display: flex;
+    justify-content: space-between;
+    padding:10px;
+    align-items: flex-end;
+    color:#f1f1f1;
+}
+.footer-sobre {
+    background-color: rgb(99, 56, 240);
+    min-height: 40px;
+    display: flex;
+    justify-content: space-between;
+    padding:10px;
+    align-items: flex-end;
+    color:#f1f1f1;
+}
+
+.form{
+  display: flex;
+  flex-flow: column;
+  justify-content: start ;
+  align-items: flex-start;
+  padding: 20px;
+  margin-right: 50px;
+  margin-left: 30px;
+  
+}
+.btn-submit{
+  background-color: rgb(99, 56, 240);
+  color: white;
+  border: 1px solid rgb(99, 56, 240);
+  padding: 5px;
+  width: 100px;
+  height: 30px;
+  color: #f1f1f1;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 15px;
+}
+.contato{
+ text-align: center;
+}
+#nome,#telefone,#email{
+  width: 300px;
+  height: 15px;
+  border: 1px solid rgb(99, 56, 240);
+  border-radius: 5px;
+  padding: 5px;
+  margin-bottom: 5px;
+  display: flex;
+  justify-content: start;
+}
+.content-form{
+  display: flex;
+  flex-direction: row;
+  background-color: #fff;
+  justify-content: center;
+  padding-right: 30px;
+}
